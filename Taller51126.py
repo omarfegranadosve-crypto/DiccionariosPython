@@ -43,11 +43,10 @@ print(f"Los Datos son: {nombre.upper()} tiene {edad} años, mide {estatura} metr
 # El programa debe impedir que la cantidad inicial de números sea menor que 1.
 
 while True:
-    cant = int(input("\nIngrese la cantidad de números que desea ingresar (mínimo 1): "))
+    cant = int(input("Ingrese la cantidad de números que desea ingresar (mínimo 1): "))
     if cant >= 1:
         break
     print("Error: La cantidad debe ser al menos 1.")
-
 num = []
 for i in range(cant):
     nu = float(input(f"Ingrese el número {i+1}: "))
